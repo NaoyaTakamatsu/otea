@@ -19,25 +19,45 @@
         <!-- modal.jsの読み込み -->
         <script src="js/modal.js"></script>
         <!-- badger.jsの読み込み -->
-        <script src="js/badger.js"></script>
+        <!--<script src="js/badger.js"></script>-->
+        <!--<script ></script>-->
         <noscript>
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-desktop.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <!-- modal.cssの読み込み -->
         <link rel="stylesheet" href="css/modal.css"/>
         <!-- badger.cssの読み込み -->
-        <link rel="stylesheet" href="css/badger.css"/>
+        <!--<link rel="stylesheet" href="css/badger.css"/>-->
         </noscript>
         <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
         <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <style type="text/css">
+        #modal-open {
+                position:relative;
+        }
+        #modal-open[data-badge]:after {
+                content:attr(data-badge);
+                position:absolute;
+                top:1px;
+                right:-30px;
+                font-size:.7em;
+                background:#ff905a;
+                color:white;
+                width:18px;height:18px;
+                text-align:center;
+                line-height:18px;
+                border-radius:50%;
+                /*box-shadow:0 0 1px #333;*/
+        }
+    </style>
     </head>
     <body>
         <div id="header-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="12u">
-
                         <header id="header">
                             <!--<h1><a href="index.html" id="logo">OTEA</a></h1>-->
                             <h1><a href="index.html" id="logo"><img alt="" src="images/otea_logo.png"> </a></h1>
@@ -66,10 +86,9 @@
                                     <p>リクルートホールディングス</p>
                                 </li>
                                 <li>
-                                    <a id="modal-open" class="button-link" style="cursor: pointer; text-decoration: none;">お知らせ<span class="badge">10</span></a>
-                                    <!--<script> 
-                                        $('#modal-open').badger('2');
-                                    </script>-->
+                                    <img src="images/information.png" style="position:relative;top:2px;width:18px; height:18px;"/><a id="modal-open" class="button-link" data-badge="3" style="cursor: pointer; text-decoration: none;">お知らせ</a>
+                               
+  
                                     <!-- ここからモーダルウィンドウ -->
                                     <div id="modal-content" style="width:25%;
                                          margin:0;
@@ -86,10 +105,11 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="friend.html">OTEAフレンズ</a>
+                                    <img src="images/friend.png" style="position:relative;top:2px;width:18px; height:18px;"/><a href="friend.html">OTEAフレンズ</a>
                                 </li>
 
                             </ul>
+                            </section>
                     </div>
                     <div class="8u important(collapse)">
 

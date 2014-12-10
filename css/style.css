@@ -256,6 +256,91 @@
             background: #ee3e52;
             border-color: #ee3e52;
         }
+        .newspaper {
+            height: 2em;
+            width: 1.5em;
+            border: 0.2em solid #2C2C2C;
+            border-radius: 0 0 0.6em 0;
+            font-size: 15px;
+            position: relative;
+        }
+
+        .newspaper::before {
+            left: -0.7em;
+            bottom: -0.19em;
+            height: 1.5em;
+            width: 0.3em;
+            border-radius: 0 0 0.6em 0.6em;
+            border: 0.2em solid #2C2C2C;
+            content: '';
+            display: block;
+            position: absolute;
+
+            -webkit-box-shadow: inset -0.05em -0.05em 0.1em 0 rgba(44, 44, 44, 0.39);
+            box-shadow: inset -0.05em -0.05em 0.1em 0 rgba(44, 44, 44, 0.39);
+        }
+
+        .newspaper::after {
+            -webkit-box-shadow: 0 0.2em 0 0 #2C2C2C,0 0.3em 0 0 #2C2C2C,0 0.3em 0 0 #2C2C2C,0.7em 0em 0 0 #2C2C2C,0.7em 0.3em 0 0 #2C2C2C,0.7em 0.8em 0 0 #2C2C2C,0em 0.8em 0 0 #2C2C2C,0.3em 0.8em 0 0 #2C2C2C,0.3em 1.1em 0 0 #2C2C2C,0em 1.1em 0 0 #2C2C2C,0.7em 1.1em 0 0 #2C2C2C,0.7em 1.4em 0 0 #2C2C2C,0.3em 1.4em 0 0 #2C2C2C,0em 1.4em 0 0 #2C2C2C,-0.4em 1.91em 0 0 #2C2C2C;
+            box-shadow: 0 0.2em 0 0 #2C2C2C,0 0.3em 0 0 #2C2C2C,0 0.3em 0 0 #2C2C2C,0.7em 0em 0 0 #2C2C2C,0.7em 0.3em 0 0 #2C2C2C,0.7em 0.8em 0 0 #2C2C2C,0em 0.8em 0 0 #2C2C2C,0.3em 0.8em 0 0 #2C2C2C,0.3em 1.1em 0 0 #2C2C2C,0em 1.1em 0 0 #2C2C2C,0.7em 1.1em 0 0 #2C2C2C,0.7em 1.4em 0 0 #2C2C2C,0.3em 1.4em 0 0 #2C2C2C,0em 1.4em 0 0 #2C2C2C,-0.4em 1.91em 0 0 #2C2C2C;
+            left: 0.1em;
+            bottom: 1.7em;
+            height: 0.2em;
+            width: 0.6em;
+            background: #2C2C2C;
+            content: '';
+            display: block;
+            position: absolute;
+        }
+        /*.badge {
+            display: block;
+            position: absolute;
+            top: -12px;
+            right: 3px;
+            line-height: 16px;
+            height: 16px;
+            padding: 0 5px;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+            border: 1px solid;
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+            box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+        }
+       .badge {
+            background: #67c1ef;
+            border-color: #30aae9;
+            background-image: -webkit-linear-gradient(top, #acddf6, #67c1ef);
+            background-image: -moz-linear-gradient(top, #acddf6, #67c1ef);
+            background-image: -o-linear-gradient(top, #acddf6, #67c1ef);
+            background-image: linear-gradient(to bottom, #acddf6, #67c1ef);
+        }
+        .badge.green {
+            background: #77cc51;
+            border-color: #59ad33;
+            background-image: -webkit-linear-gradient(top, #a5dd8c, #77cc51);
+            background-image: -moz-linear-gradient(top, #a5dd8c, #77cc51);
+            background-image: -o-linear-gradient(top, #a5dd8c, #77cc51);
+            background-image: linear-gradient(to bottom, #a5dd8c, #77cc51);
+        }
+        .badge.yellow {
+            background: #faba3e;
+            border-color: #f4a306;
+            background-image: -webkit-linear-gradient(top, #fcd589, #faba3e);
+            background-image: -moz-linear-gradient(top, #fcd589, #faba3e);
+            background-image: -o-linear-gradient(top, #fcd589, #faba3e);
+            background-image: linear-gradient(to bottom, #fcd589, #faba3e);
+        }
+        .badge.red {
+            background: #fa623f;
+            border-color: #fa5a35;
+            background-image: -webkit-linear-gradient(top, #fc9f8a, #fa623f);
+            background-image: -moz-linear-gradient(top, #fc9f8a, #fa623f);
+            background-image: -o-linear-gradient(top, #fc9f8a, #fa623f);
+            background-image: linear-gradient(to bottom, #fc9f8a, #fa623f);
+        }*/
+
         /*.badge {
             position: absolute;
             top: -15px;
