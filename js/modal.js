@@ -1,6 +1,6 @@
 $(function() {
-/*$(document).ready(function(){
-    $('#modal-open').badger('2');}*/
+    /*$(document).ready(function(){
+     $('#modal-open').badger('2');}*/
     /*$('#modal-open').badger('2');*/
 
 //モーダルウィンドウを出現させるクリックイベント
