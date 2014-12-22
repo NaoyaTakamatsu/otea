@@ -104,6 +104,35 @@ button.right:hover{
     border-color: #ee3e52;
 }
 
+button.oteafriends_right{
+    float: right;
+    display: inline;
+    margin:-60px 0px;
+    //margin: 2px 1.25em 0 0;
+    padding: 15px 25px 15px 25px;
+    background-color: #34D298/*#DB6565*//*#007b9d*/;
+    /*background-image: -moz-linear-gradient(top, #008dad, #007b9d);
+    background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#008dad), to(#007b9d));
+    background-image: -ms-linear-gradient(top, #008dad, #007b9d);
+    background-image: -o-linear-gradient(top, #008dad, #007b9d);
+    background-image: linear-gradient(top, #008dad, #007b9d);*/
+    border-radius: 10px;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+    //letter-spacing: -1px;
+    border: solid 1px #34D298/*#DB6565*//*#006e8b*/;
+    //box-shadow: inset 0px 0px 0px 1px #18a8c8;
+    //margin: 2px 1.25em 0 0;
+}
+
+button.oteafriends_right:hover{
+    background-color: #ee3e52/*#66d2b9*//*#db7c7a*//*#118eb1*/;
+    border-color: #ee3e52;
+}
+
 ul {
     padding: 0.25em 0 0 0;
 }

@@ -60,3 +60,13 @@ $(function() {
         return false;
     });
 });
+jQuery(document).ready( function() {
+        $(".oteafriends_right").click(function(){
+        	var pushed_design = {
+    		"background-color":"#ff905a",
+    		"border-color":"#ff905a"
+	}
+            //alert('hello world! button 1');
+            $(".oteafriends_right").css(pushed_design).text("申請済み");;
+        });
+    });
