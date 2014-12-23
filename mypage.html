@@ -18,6 +18,7 @@
         <script src="js/init.js"></script>
         <!-- modal.jsの読み込み -->
         <script src="js/modal.js"></script>
+        <script src="js/otea.js"></script>
         <!-- badger.jsの読み込み -->
         <!--<script src="js/badger.js"></script>-->
         <!--<script ></script>-->
@@ -43,7 +44,7 @@
                 top:1px;
                 right:-60px;
                 font-size:.7em;
-                background:#ff905a;
+                background:/*#ff905a*/#ee3e52;
                 color:white;
                 width:18px;height:18px;
                 text-align:center;
@@ -86,7 +87,7 @@
                                     <p>リクルートホールディングス</p>
                                 </li>
                                 <li>
-                                    <img src="images/information.png" style="position:relative;top:2px;width:18px;height:18px;"/><a id="modal-open" class="button-link" data-badge="2" style="cursor: pointer; text-decoration: none;">　お知らせ</a>
+                                    <img src="images/information.png" style="position:relative;top:2px;width:18px;height:18px;" /><a id="modal-open" class="button-link" style="cursor: pointer; text-decoration: none;">　お知らせ</a><a id="new_count" style="margin:60px;color: #ee3e52;">1</a>
                                     <!-- ここからモーダルウィンドウ -->
                                     <div id="modal-content" style="width:25%;
                                          margin:0;
@@ -125,21 +126,21 @@
                                 <a href="mypage.html"><img src="images/kiritani.png" alt="" class="left" /></a>
                                 <h4>桐谷美玲</h4>
                                 <p>スウィートパワー</p>
-                                <button class="oteafriends_right">お茶しよ!!</button>
+                                <button class="oteafriends_right" id="0">お茶しよ!!</button>
                             </li>
                             <hr>
                             <li>
                                 <a href="mypage.html"><img src="images/sasaki.png" alt="" class="left" /></a>
                                 <h4>佐々木希</h4>
                                 <p>トップコート</p>
-                                <button class="oteafriends_right">お茶しよ!!</button>
+                                <button class="oteafriends_right" id="1">お茶しよ!!</button>
                             </li>
                             <hr>
                             <li>
                                 <a href="mypage.html"><img src="images/kiritani.png" alt="" class="left" /></a>
                                 <h4>桐谷美玲</h4>
                                 <p>スウィートパワー</p>
-                                <button class="oteafriends_right">お茶しよ!!</button>
+                                <button class="oteafriends_right" id="2">お茶しよ!!</button>
                             </li>
 
                         </ul>
