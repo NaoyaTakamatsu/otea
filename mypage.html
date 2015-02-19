@@ -22,6 +22,7 @@
         <!-- badger.jsの読み込み -->
         <!--<script src="js/badger.js"></script>-->
         <!--<script ></script>-->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <noscript>
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -61,9 +62,9 @@
                     <div class="12u">
                         <header id="header">
                             <!--<h1><a href="index.html" id="logo">OTEA</a></h1>-->
-                            <h1><a href="index.html" id="logo"><img alt="" src="images/otea_logo.png"> </a></h1>
+                            <h1><a href="index.html" id="logo"><img alt="" src="images/otea_logo.png" id="logo_img"> </a></h1>
                             <nav id="nav">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">About</a>
                                 <a href="mypage.html" class="current-page-item">mypage</a>
                                 <a href="friend.html">o-teafriends</a>
                             </nav>
@@ -87,7 +88,7 @@
                                     <p>リクルートホールディングス</p>
                                 </li>
                                 <li>
-                                    <img src="images/information.png" style="position:relative;top:2px;width:18px;height:18px;" /><a id="modal-open" class="button-link" style="cursor: pointer; text-decoration: none;">　お知らせ</a><a id="new_count" style="margin:60px;color: #ee3e52;">1</a>
+                                    <span class="fa fa-bell"></span><a id="modal-open" class="button-link" style="cursor: pointer; text-decoration: none;">お知らせ</a><a id="new_count" style="margin:60px;color: #ee3e52;">1</a>
                                     <!-- ここからモーダルウィンドウ -->
                                     <div id="modal-content" style="width:25%;
                                          margin:0;
@@ -104,7 +105,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="images/friend.png" style="position:relative;top:2px;width:18px; height:18px;"/><a href="friend.html">　O-TEAフレンズ</a>
+                                    <span class="fa fa-user"></span><a href="friend.html">O-TEAフレンズ</a>
                                 </li>
 
                             </ul>
@@ -125,21 +126,18 @@
                             <li>
                                 <a href="mypage.html"><img src="images/kiritani.png" alt="" class="left" /></a>
                                 <h4>桐谷美玲</h4>
-                                <p>スウィートパワー</p>
                                 <button class="oteafriends_right" id="0">お茶しよ!!</button>
                             </li>
                             <hr>
                             <li>
                                 <a href="mypage.html"><img src="images/sasaki.png" alt="" class="left" /></a>
                                 <h4>佐々木希</h4>
-                                <p>トップコート</p>
                                 <button class="oteafriends_right" id="1">お茶しよ!!</button>
                             </li>
                             <hr>
                             <li>
                                 <a href="mypage.html"><img src="images/kiritani.png" alt="" class="left" /></a>
                                 <h4>桐谷美玲</h4>
-                                <p>スウィートパワー</p>
                                 <button class="oteafriends_right" id="2">お茶しよ!!</button>
                             </li>
 

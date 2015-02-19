@@ -28,10 +28,6 @@ h1,h2 {
     text-transform: lowercase;
 }
 
-h1 img{
-    max-width: 100%; 
-    height:auto;
-}
 
 
 h2 {
@@ -139,7 +135,7 @@ ul {
 
 a {
     color: #34D298/*#DB6565*//*#5d93a2*/;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {

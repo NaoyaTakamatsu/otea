@@ -70,16 +70,20 @@ article.blog-post h2 {
     width: 100%;
 }
 
+ul.small-image-list button{
+    margin:5px;
+}
+
 /* Header */
 
 #header-wrapper {
     background-color: #73E0B8/*#F1A9A0*//*#007294*/;
-    /*background-image: -moz-linear-gradient(top, #008dab, #007294);
+    background-image: -moz-linear-gradient(top, #008dab, #007294);
     background-image: -webkit-linear-gradient(top, #008dab, #007294);
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#008dab), to(#007294));
     background-image: -ms-linear-gradient(top, #008dab, #007294);
     background-image: -o-linear-gradient(top, #008dab, #007294);
-    background-image: linear-gradient(top, #008dab, #007294);*/
+    background-image: linear-gradient(top, #008dab, #007294);
 }
 
 #header {
@@ -130,6 +134,10 @@ article.blog-post h2 {
     letter-spacing: -1px;
     text-transform: lowercase;
     opacity: 0.8;
+}
+#logo_img{
+    width:40%;
+    height:100%;
 }
 
 /* Main */
@@ -214,6 +222,10 @@ article.blog-post h2 {
     background: rgba(0,0,0,0.2);
 }
 
+#tiltleBar #logo_img{
+    width:10px;
+    height:10px;
+}
 #navPanel {
     background: #73E0B8/*#F1A9A0*//*#00536F*/;
     color: #fff;
@@ -237,4 +249,104 @@ article.blog-post h2 {
 
 #navPanel .link:last-child {
     border-bottom: 0;
+}
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    font-size: 67%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height:45px;
+    padding: 3px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+.facebook{
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.btn{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.fa{
+  margin-right: 5px;
+}
+.top-wrapper{
+  padding: 100px 0 20px 0;
+  //background: url(/images/cafedeat.jpg);
+  background: url(images/cafe.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  //background-opacity: 0.1;
+}
+
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 28px;
+  letter-spacing: 5px;
+  color:#34D298;
+  text-shadow: 2px 2px 1px #ffffff;
+}
+
+.top-wrapper h3{
+  opacity: 0.0;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  color:#34D298;
+  text-shadow: 2px 2px 1px #ffffff;
+  /*text-shadow: 2px 2px 1px #000000,
+    -2px 2px 1px #000000,
+    2px -2px 1px #000000,
+    -2px -2px 1px #000000;*/
+}
+#top_strong{
+    color:#ee3e52;
+    font-weight:bold;
 }

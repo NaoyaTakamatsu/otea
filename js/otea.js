@@ -1,5 +1,5 @@
 //新着確認後の処理
-$(function(){
+jQuery(function ($){
 	$("#modal-open").click(function() {
            	//alert("ようこそ！");
            	var news=0;
@@ -9,7 +9,7 @@ $(function(){
 	});
 });
 //oteafriends申請ボタンの申請済み処理
-$(function() {
+jQuery(function ($) {
         $(".oteafriends_right").click(function(){
         	var pushed_design = {
     		"background-color":"#ff905a",
